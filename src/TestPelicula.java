@@ -18,7 +18,7 @@ public class TestPelicula {
 
         try {
             pelicula.setTitulo("Alien");
-            pelicula.setDirector("Albert Einstein");
+            pelicula.setDirector("Ridley Scott");
             pelicula.setDuracionMinutos(-10);
         }catch (IllegalArgumentException e){
             System.out.println("Error: "+e.getMessage());
